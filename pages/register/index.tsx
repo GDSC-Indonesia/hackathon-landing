@@ -27,11 +27,7 @@ export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
 
 const index: NextPage = () => {
   const [isProcess, setIsProcess] = useState<boolean>(false)
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<DefaultItemInput>()
+  const { register, handleSubmit } = useForm<DefaultItemInput>()
   const onSubmit: SubmitHandler<DefaultItemInput> = async (data) => {
     setIsProcess(true)
     if (data.password === data.retype_password) {
