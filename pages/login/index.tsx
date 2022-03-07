@@ -4,7 +4,7 @@ import InputText, { DefaultItemInput } from '../../components/Forms/InputText'
 import Link from 'next/link'
 import { HiEye } from 'react-icons/hi'
 import { useForm, SubmitHandler } from 'react-hook-form'
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import nookies from 'nookies'
 import Router from 'next/router'
@@ -44,8 +44,8 @@ const Login: NextPage = () => {
       nookies.set(null, 'token', data.jwt, {
         maxAge: 7 * 24 * 60 * 60,
       })
-      setIsProcess(false)
       Router.replace('/admin')
+      setIsProcess(false)
     } catch (error) {
       console.log(error)
     }

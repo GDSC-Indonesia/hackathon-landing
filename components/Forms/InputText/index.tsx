@@ -15,6 +15,7 @@ type DefaultItemInput = {
     name: string
     photo: string
   }>
+  asalGdsc: string
 }
 
 export type { DefaultItemInput }

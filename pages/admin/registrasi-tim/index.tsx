@@ -57,21 +57,22 @@ const RegistrationTeam = ({
         formData
       )
       const imageName = resImg.data.secure_url
-      const res = await axios({
-        method: 'POST',
-        url: `${process.env.URL_API}/api/teams`,
-        headers: {
-          Authorization: `Bearer ${cookies}`,
-          'Content-Type': 'application/json',
-        },
-        data: {
+      const res = await axios.post(
+        `${process.env.URL_API}/api/teams`,
+        {
           data: {
             team_name: inputValue.namaTim,
             member_team: inputValue.memberTeam,
             bukti_registrasi_gsc: imageName,
           },
         },
-      })
+        {
+          headers: {
+            Authorization: `Bearer ${cookies}`,
+            'Content-Type': 'application/json',
+          },
+        }
+      )
 
       if (res.status === 200) {
         setInputProcess(false)
@@ -119,13 +120,6 @@ const RegistrationTeam = ({
           required
         />
 
-        <button
-          onClick={addFormField}
-          className="inline-block w-full cursor-pointer  rounded-xl bg-secodary px-4 py-[10px]  text-white transition-all hover:bg-[#ED8E00] hover:shadow-md lg:px-6 lg:py-[15px]"
-          disabled={disable}
-        >
-          Tambah anggota tim
-        </button>
         <div className="my-3">
           {members.map((_, i) => (
             <div key={i} className="my-2 flex flex-col rounded border p-2">
@@ -145,6 +139,21 @@ const RegistrationTeam = ({
             </div>
           ))}
         </div>
+        <button
+          onClick={addFormField}
+          className="mb-5 inline-block w-full  cursor-pointer rounded-xl bg-secodary px-4  py-[10px] text-white transition-all hover:bg-[#ED8E00] hover:shadow-md lg:px-6 lg:py-[15px]"
+          disabled={disable}
+        >
+          Tambah anggota tim
+        </button>
+
+        <InputText
+          register={register}
+          type="text"
+          name="asalGdsc"
+          label="Asal GDSC"
+          required
+        />
 
         <InputText
           register={register}
