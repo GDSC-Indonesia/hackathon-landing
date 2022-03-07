@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import type { GetServerSidePropsContext, NextPage } from 'next'
 import Container from '../../components/Container'
 import InputText, { DefaultItemInput } from '../../components/Forms/InputText'
@@ -8,6 +8,7 @@ import { useForm, SubmitHandler } from 'react-hook-form'
 import axios from 'axios'
 import nookies from 'nookies'
 import Router from 'next/router'
+import LoadingSpinner from '../../components/LoadingSpinner'
 
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const cookies = nookies.get(ctx)
@@ -25,13 +26,14 @@ export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
 }
 
 const index: NextPage = () => {
+  const [isProcess, setIsProcess] = useState<boolean>(false)
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm<DefaultItemInput>()
   const onSubmit: SubmitHandler<DefaultItemInput> = async (data) => {
-    console.log(process.env.URL_API)
+    setIsProcess(true)
     if (data.password === data.retype_password) {
       try {
         const res = await axios.post(
@@ -49,6 +51,7 @@ const index: NextPage = () => {
         nookies.set(null, 'token', res.data.jwt, {
           maxAge: 7 * 24 * 60 * 60,
         })
+        setIsProcess(false)
         Router.replace('/admin')
       } catch (error) {
         console.error(error)
@@ -58,6 +61,7 @@ const index: NextPage = () => {
 
   return (
     <main className="flex lg:h-screen lg:items-start">
+      {isProcess && <LoadingSpinner />}
       <Container
         as="section"
         className="mt-8 w-full rounded md:w-4/5 lg:mt-16 lg:w-3/5 lg:bg-white "
