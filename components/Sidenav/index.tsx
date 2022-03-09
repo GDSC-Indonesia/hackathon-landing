@@ -23,26 +23,6 @@ const Sidenav = ({ open }: SidenavProps) => {
             <Link href={menu.url}>{menu.name}</Link>
           </li>
         ))}
-        <li className="mt-20">
-          <Button
-            as="link"
-            href="/register"
-            variant="default"
-            className="block bg-white text-center text-primary"
-          >
-            Sign Up
-          </Button>
-        </li>
-        <li className="mt-6">
-          <Button
-            as="link"
-            href="/login"
-            variant="outline"
-            className="block border-white text-center text-white"
-          >
-            Login
-          </Button>
-        </li>
       </ul>
     </nav>
   )

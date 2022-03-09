@@ -24,20 +24,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="md:ml-14">
-          <Button as="link" variant="outline" color="primary" href="/login">
-            Login
-          </Button>
-          <Button
-            as="link"
-            variant="default"
-            href="/register"
-            className="ml-3"
-            color="primary"
-          >
-            Sign up
-          </Button>
-        </div>
       </div>
     </nav>
   )
