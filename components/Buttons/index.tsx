@@ -29,12 +29,12 @@ const Button: React.VFC<AppProps> = ({
       'border-2': variant === 'outline',
       'border-primary text-primary hover:bg-primary hover:text-white':
         variant === 'outline' && color === 'primary',
-      'border-secodary text-secodary':
+      'border-secodary text-secodary hover:bg-secodary hover:text-white':
         variant === 'outline' && color === 'secondary',
       'bg-secodary text-white hover:bg-[#ED8E00] border-2 border-secodary':
         variant === 'default' && color === 'secondary',
     },
-    `cursor-pointer border-2 rounded-xl lg:px-6 lg:py-[15px] px-4 py-[10px] hover:shadow-md transition-colors transition-shadow ${className}`
+    `cursor-pointer border-2 rounded-xl lg:px-6 lg:py-[15px] px-4 py-[10px] hover:shadow-md transition-all ${className}`
   )
 
   return as === 'link' ? (
