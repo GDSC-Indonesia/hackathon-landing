@@ -24,6 +24,16 @@ const Sidenav = ({ open }: SidenavProps) => {
             </Link>
           </li>
         ))}
+        <li className="text-right">
+          <a
+            href="https://s.id/TelegramGDSCHackfest"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="cursor-pointer rounded-xl border-2 border-white px-4 py-[10px] text-white  transition-all hover:shadow-md lg:px-6 lg:py-[15px]"
+          >
+            Join Forum Discussion
+          </a>
+        </li>
       </ul>
     </nav>
   )
