@@ -52,7 +52,7 @@ const Countdown = ({ className = '' }: CountProps) => {
 
   return (
     <div
-      className={`flex justify-between rounded-2xl bg-white px-4 py-3 md:px-12 md:py-6 ${className}`}
+      className={`mt-14 flex justify-between rounded-2xl bg-white px-4 py-3 md:mt-0 md:px-12 md:py-6 ${className}`}
     >
       {timeLeft.map(
         (time, i) =>
