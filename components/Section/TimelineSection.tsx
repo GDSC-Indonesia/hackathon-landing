@@ -57,7 +57,7 @@ const TimelineSection = () => {
                 </div>
                 <div className="-mt-4 pr-5 lg:mt-0 lg:text-center">
                   <p className="font-bold">{timeLine.name}</p>
-                  <span>{timeLine.date}</span>
+                  <span className="capitalize">{timeLine.date}</span>
                 </div>
               </div>
             </li>
