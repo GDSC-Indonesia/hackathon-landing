@@ -20,7 +20,7 @@ const PrizeSection = () => {
     >
       <div className="relative flex flex-col items-center justify-center lg:order-2 lg:w-1/2">
         <Image src={SectionImage} width={399} height={508} />
-        <div className="absolute -bottom-2 z-10 flex w-[250px]  items-center rounded-xl bg-white py-3 px-6 text-black shadow-md lg:right-8">
+        <div className="absolute -bottom-2 right-12 flex w-[250px]  items-center rounded-xl bg-white py-3 px-6 text-black shadow-md lg:right-8">
           <Champions />
           <div className="ml-5 flex flex-col ">
             <span>Prize</span>
