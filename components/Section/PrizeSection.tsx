@@ -7,7 +7,7 @@ import Champions from '../icons/Champions'
 
 const benefits = [
   'Mentorships from experts',
-  'GiftSet, google nest, and cash prizest',
+  'GiftSet, google nest, and cash prize',
   'Feedback and inputs  from professional judges',
 ]
 
