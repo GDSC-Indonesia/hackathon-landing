@@ -11,7 +11,7 @@ const AboutSection = () => {
       className="mb-20 flex flex-col lg:flex-row"
       id="about-us"
     >
-      <div className="flex justify-start lg:w-1/2">
+      <div className="flex justify-center lg:w-1/2">
         <Image src={AboutImage} alt="About image" width={500} height={466} />
       </div>
       <div className="mt-8 text-center lg:w-1/2 lg:text-left">
@@ -26,9 +26,6 @@ const AboutSection = () => {
           software or hardware based on <br />
           United Nation 17 SDGs.
         </p>
-        <Button as="link" href="/" color="secondary">
-          Learn more
-        </Button>
       </div>
     </Container>
   )
