@@ -24,7 +24,7 @@ const PrizeSection = () => {
           <Champions />
           <div className="ml-5 flex flex-col ">
             <span>Prize</span>
-            <span className="text-xl font-bold">IDR 10.000.000</span>
+            <span className="text-xl font-bold">IDR 40.000.000</span>
           </div>
         </div>
       </div>
