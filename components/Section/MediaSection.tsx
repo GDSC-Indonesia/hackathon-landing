@@ -30,6 +30,8 @@ import gdscUnsri from '../../assets/partner/gdsc-unsri.png'
 import gdscUPI from '../../assets/partner/gdsc-upi.png'
 import gdscUpnYogya from '../../assets/partner/gdsc-upnyogya.png'
 import gdscUnair from '../../assets/partner/gdsc-unair.png'
+import GDSCLogo from '../../assets/gdsc-logo.png'
+import TelkomLogo from '../../assets/telkom-logo.png'
 
 const listImage = [
   gdscUnhas,
@@ -70,15 +72,26 @@ const MediaSection = () => {
       as="section"
       className="flex w-full flex-col items-center md:px-8 "
     >
-      <h2 className="mb-7 mt-20 text-3xl font-bold text-textPrimary lg:mb-10 lg:text-5xl">
-        Media Partner
-      </h2>
-      <div className=" flex w-full flex-wrap justify-center  rounded-lg bg-white px-4 py-9 shadow lg:flex-row lg:p-8">
-        {listImage.map((img, i) => (
-          <div className="m-4 w-[250px]" key={`${i}-img`}>
-            <Image src={img} />
-          </div>
-        ))}
+      <div className="flex w-full flex-col items-center">
+        <h2 className="mb-7 mt-20 text-3xl font-bold text-textPrimary lg:mb-10 lg:text-5xl">
+          Our Sponsors
+        </h2>
+        <div className="flex w-full flex-wrap items-center justify-center gap-4">
+          <Image src={GDSCLogo} width={313} height={83} />
+          <Image src={TelkomLogo} width={375} height={109} />
+        </div>
+      </div>
+      <div className="flex w-full flex-col items-center">
+        <h2 className="mb-7 mt-20 text-2xl font-bold text-textPrimary lg:mb-10 lg:text-4xl">
+          Organizers
+        </h2>
+        <div className=" flex w-full flex-wrap justify-center  rounded-lg bg-white px-4 py-9 shadow lg:flex-row lg:p-8">
+          {listImage.map((img, i) => (
+            <div className="m-4 w-[250px]" key={`${i}-img`}>
+              <Image src={img} />
+            </div>
+          ))}
+        </div>
       </div>
     </Container>
   )
