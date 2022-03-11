@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <Container
       as="section"
-      className="mb-20 flex flex-col lg:flex-row"
+      className="mb-20 flex flex-col lg:flex-row lg:pt-24"
       id="about-us"
     >
       <div className="flex justify-center lg:w-1/2">

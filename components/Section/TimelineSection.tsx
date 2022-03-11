@@ -40,7 +40,7 @@ const TimelineSection = () => {
   return (
     <Container
       as="section"
-      className="flex flex-col items-center"
+      className="flex flex-col items-center lg:pt-24"
       id="timeline"
     >
       <h2 className="mb-7 text-3xl font-bold text-textPrimary lg:mb-10 lg:text-5xl">

@@ -15,7 +15,7 @@ const PrizeSection = () => {
   return (
     <Container
       as="section"
-      className="lg:flex lg:items-center lg:justify-between"
+      className="lg:flex lg:items-center lg:justify-between lg:pt-24"
       id="prize"
     >
       <div className="relative flex flex-col items-center justify-center lg:order-2 lg:w-1/2">
