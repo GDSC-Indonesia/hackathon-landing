@@ -2,13 +2,12 @@ import React from 'react'
 import Container from '../Container'
 import Image from 'next/image'
 import SectionImage from '../../assets/section-image-2.png'
-import googleDev from '../../assets/google-dev.svg'
 import CheckImage from '../../assets/cheklist.png'
-import Button from '../Buttons'
+import Champions from '../icons/Champions'
 
 const benefits = [
   'Mentorships from experts',
-  'Prizes',
+  'Giftset',
   'Feedback and inputs  from professional judges',
 ]
 
@@ -20,11 +19,12 @@ const PrizeSection = () => {
       id="prize"
     >
       <div className="relative flex flex-col items-center justify-center lg:order-2 lg:w-1/2">
-        <Image src={SectionImage} width={432} height={466} />
-        <div className="absolute -bottom-8 flex w-[250px] items-center justify-center rounded-xl bg-white py-2 px-6 text-black shadow-md lg:right-8 ">
-          <div className="ml-3 flex flex-col">
-            <span className="text-sm">Supported by</span>
-            <Image src={googleDev} />
+        <Image src={SectionImage} width={399} height={508} />
+        <div className="absolute -bottom-2 z-10 flex w-[250px]  items-center rounded-xl bg-white py-3 px-6 text-black shadow-md lg:right-8">
+          <Champions />
+          <div className="ml-5 flex flex-col ">
+            <span>Prize</span>
+            <span className="text-xl font-bold">IDR 10.000.000</span>
           </div>
         </div>
       </div>
@@ -53,9 +53,6 @@ const PrizeSection = () => {
             </li>
           ))}
         </ul>
-        <Button as="link" color="secondary" href="/" className="mt-5">
-          Learn more
-        </Button>
       </div>
     </Container>
   )
