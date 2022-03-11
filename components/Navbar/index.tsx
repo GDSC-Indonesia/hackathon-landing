@@ -47,7 +47,7 @@ const Navbar = () => {
             ))}
             <li className="ml-7">
               <a
-                href="https://s.id/TelegramGDSCHackfest"
+                href="https://t.me/+Jv10TkazL2QxYzJl"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="cursor-pointer rounded-xl border-2 border-primary px-4 py-[10px] text-primary transition-all hover:bg-primary hover:text-white hover:shadow-md lg:px-6 lg:py-[15px]"
