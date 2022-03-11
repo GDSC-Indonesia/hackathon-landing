@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+
 import Navbar from '../components/Navbar'
 import Sidenav from '../components/Sidenav'
 import HeroSection from '../components/Section/HeroSection'
@@ -20,12 +20,6 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Head>
-        <link
-          href="http://fonts.cdnfonts.com/css/google-sans"
-          rel="stylesheet"
-        />
-      </Head>
       <Navbar />
       <Sidenav open={open} />
       <div className="fixed bottom-6 right-5 z-20 lg:hidden">

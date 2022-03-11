@@ -7,7 +7,7 @@ const timeLines = [
     date: '12 - 18 march',
   },
   {
-    name: 'Opening Technical Meeting ',
+    name: 'Opening & Technical Meeting ',
     date: '19 march',
   },
   {
@@ -55,9 +55,9 @@ const TimelineSection = () => {
                 <div className="lg: absolute -left-2 top-0 flex h-[18px] w-[18px] items-center justify-center rounded-full group-odd:bg-secodary group-even:bg-primary lg:-top-2">
                   <div className="h-[8px] w-[8px] rounded-full bg-white"></div>
                 </div>
-                <div className="-mt-4 pr-5 lg:mt-0 lg:text-center">
+                <div className="-mt-4 pr-5 capitalize lg:mt-0 lg:text-center">
                   <p className="font-bold">{timeLine.name}</p>
-                  <span className="capitalize">{timeLine.date}</span>
+                  <span>{timeLine.date}</span>
                 </div>
               </div>
             </li>

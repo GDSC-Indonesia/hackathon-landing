@@ -14,7 +14,7 @@ const Countdown = ({ className = '' }: CountProps) => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear()
 
-    const diference = +new Date(`03/18/${year}`) - +new Date()
+    const diference = +new Date(`03/19/${year}`) - +new Date()
 
     let timeLeft: Array<Count> = []
 

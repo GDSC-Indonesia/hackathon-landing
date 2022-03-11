@@ -32,6 +32,8 @@ import gdscUpnYogya from '../../assets/partner/gdsc-upnyogya.png'
 import gdscUnair from '../../assets/partner/gdsc-unair.png'
 import GDSCLogo from '../../assets/gdsc-logo.png'
 import TelkomLogo from '../../assets/telkom-logo.png'
+import AEJLogo from '../../assets/AEJ.png'
+import AndroidDevSurabayaLogo from '../../assets/android-dev-surabaya.png'
 
 const listImage = [
   gdscUnhas,
@@ -79,6 +81,15 @@ const MediaSection = () => {
         <div className="flex w-full flex-wrap items-center justify-center gap-4">
           <Image src={GDSCLogo} width={313} height={83} />
           <Image src={TelkomLogo} width={375} height={109} />
+        </div>
+      </div>
+      <div className="flex w-full flex-col items-center">
+        <h2 className="mb-7 mt-20 text-3xl font-bold text-textPrimary lg:mb-10 lg:text-5xl">
+          Media partner
+        </h2>
+        <div className="flex w-full flex-wrap items-center justify-center gap-4">
+          <Image src={AndroidDevSurabayaLogo} width={98} height={98} />
+          <Image src={AEJLogo} width={90} height={90} />
         </div>
       </div>
       <div className="flex w-full flex-col items-center">
