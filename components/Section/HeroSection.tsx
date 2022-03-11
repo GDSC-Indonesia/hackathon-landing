@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="mt-6 flex flex-col items-center lg:order-1 lg:row-span-2  lg:items-start">
         <div>
           <h1 className="text-center text-3xl font-bold text-textPrimary lg:text-left lg:text-6xl">
-            GDSC Hackfest <br /> Indonesia
+            GDSC <br className="md:hidden lg:block" /> Hackfest <br /> Indonesia
           </h1>
           <div className="mt-4">
             <p className="w-[223px] text-center text-sm lg:w-[338px] lg:text-left lg:text-lg">
@@ -29,17 +29,17 @@ const HeroSection = () => {
         <div className="mt-7 lg:mt-[128px]">
           <Button
             as="link"
-            href="/login"
+            href="/"
             color="secondary"
             variant="default"
             className="text-sm"
           >
-            Get started
+            apply
           </Button>
           <Button
             as="link"
             href="/"
-            color="primary"
+            color="secondary"
             variant="outline"
             className="ml-7 text-sm"
           >

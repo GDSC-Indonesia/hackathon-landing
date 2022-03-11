@@ -17,9 +17,10 @@ const PrizeSection = () => {
     <Container
       as="section"
       className="lg:flex lg:items-center lg:justify-between"
+      id="prize"
     >
       <div className="relative flex flex-col items-center justify-center lg:order-2 lg:w-1/2">
-        <Image src={SectionImage} width={370} height={554} />
+        <Image src={SectionImage} width={432} height={466} />
         <div className="absolute -bottom-8 flex w-[250px] items-center justify-center rounded-xl bg-white py-2 px-6 text-black shadow-md lg:right-8 ">
           <div className="ml-3 flex flex-col">
             <span className="text-sm">Supported by</span>

@@ -6,7 +6,11 @@ import Button from '../Buttons'
 
 const AboutSection = () => {
   return (
-    <Container as="section" className="mb-20 flex flex-col lg:flex-row">
+    <Container
+      as="section"
+      className="mb-20 flex flex-col lg:flex-row"
+      id="about-us"
+    >
       <div className="flex justify-start lg:w-1/2">
         <Image src={AboutImage} alt="About image" width={500} height={466} />
       </div>

@@ -8,6 +8,7 @@ const FaqSection = () => {
     <Container
       as="section"
       className="mt-28 flex flex-col items-center pt-28 pb-32"
+      id="faq"
     >
       <h3 className="text-center text-3xl font-bold text-white">
         Frequently <br className="lg:hidden" /> Asked <br /> Questions
