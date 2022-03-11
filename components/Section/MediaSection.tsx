@@ -29,6 +29,7 @@ import gdscUnikom from '../../assets/partner/gdsc-unikom.png'
 import gdscUnsri from '../../assets/partner/gdsc-unsri.png'
 import gdscUPI from '../../assets/partner/gdsc-upi.png'
 import gdscUpnYogya from '../../assets/partner/gdsc-upnyogya.png'
+import gdscUnair from '../../assets/partner/gdsc-unair.png'
 
 const listImage = [
   gdscUnhas,
@@ -51,6 +52,7 @@ const listImage = [
   gdscTrilogi,
   gdscTrunojoyo,
   gdscUPI,
+  gdscUnair,
   gdscUdinus,
   gdscUnbraw,
   gdscUnbraw,
