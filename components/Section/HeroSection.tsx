@@ -26,25 +26,22 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <div className="mt-7 lg:mt-[128px]">
-          <Button
-            as="link"
-            href="/"
-            color="secondary"
-            variant="default"
-            className="text-sm"
+        <div className="mt-7 flex gap-3 lg:mt-[128px]">
+          <a
+            href="https://forms.gle/LTp2AfiusgfstiqJA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" rounded-xl border-2 border-secodary bg-secodary px-4 py-[10px] text-center text-white transition-all hover:bg-[#ED8E00] hover:shadow-md lg:px-6 lg:py-[15px]"
           >
-            apply
-          </Button>
-          <Button
-            as="link"
-            href="/"
-            color="secondary"
-            variant="outline"
-            className="ml-7 text-sm"
+            Apply
+          </a>
+          <a
+            href="#"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-xl border-2 border-secodary px-4 py-[10px] text-center text-secodary transition-all hover:bg-secodary hover:text-white hover:shadow-md lg:px-6 lg:py-[15px]"
           >
             Download Guidebook
-          </Button>
+          </a>
         </div>
       </div>
       <div className=" lg:relative lg:order-3">
