@@ -26,7 +26,7 @@ const SessionItem = ({ date, topic, link, time }: Session) => {
               href={link.youtube}
               target="_blank"
               rel="noopener noreferrer"
-              className=" cursor-not-allowed rounded-xl border-2 border-secodary bg-secodary px-4 py-[10px] text-center text-white transition-all hover:bg-[#ED8E00] hover:shadow-md lg:px-6 lg:py-[10px]"
+              className=" rounded-xl border-2 border-secodary bg-secodary px-4 py-[10px] text-center text-white transition-all hover:bg-[#ED8E00] hover:shadow-md lg:px-6 lg:py-[10px]"
             >
               Watch Session
             </a>
