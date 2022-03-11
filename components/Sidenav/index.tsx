@@ -1,7 +1,6 @@
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 import React from 'react'
 import menus from '../../data/menus'
-import Button from '../Buttons'
 
 type SidenavProps = {
   open: boolean
@@ -20,7 +19,9 @@ const Sidenav = ({ open }: SidenavProps) => {
             key={`${i}-links`}
             className="mb-10 text-right text-2xl  text-white"
           >
-            <Link href={menu.url}>{menu.name}</Link>
+            <Link to={menu.to} smooth={true} spy={true}>
+              {menu.name}
+            </Link>
           </li>
         ))}
       </ul>
