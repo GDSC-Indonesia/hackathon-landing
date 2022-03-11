@@ -12,33 +12,47 @@ const sessions: Array<Session> = [
   {
     topic: 'Opening & Technical Meeting',
     date: '19 March 2022',
-    time: '07:00 - 08:00 PM',
-    // Uncommnet code di bawah untuk isi link youtube atau calender
-    // jika di isi otomatis akan tombol link akan muncul
-    // link: {
-    //   youtube: '#',
-    //   calendar: '#',
-    // },
+    time: '13:00 - 15:00',
+    link: {
+      youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
+      calendar: 'https://s.id/-ZQnD',
+    },
   },
   {
     topic: 'Design Thinking for Idea Validation',
     date: '20 March 2022',
-    time: '07:00 - 08:00 PM',
+    time: '10:15 - 11:15 ',
+    link: {
+      youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
+      calendar: 'https://s.id/-ZQoj',
+    },
   },
   {
     topic: 'Sharing Sessions with Winner GSC ',
-    date: '19 March 2022',
-    time: '07:00 - 08:00 PM',
+    date: '20 March 2022',
+    time: '11:35 - 12:35',
+    link: {
+      youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
+      calendar: 'https://s.id/ZQpw',
+    },
   },
   {
     topic: 'Pitching for Desk',
-    date: '19 March 2022',
-    time: '07:00 - 08:00 PM',
+    date: '20 March 2022',
+    time: '13:20 - 14:20',
+    link: {
+      youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
+      calendar: 'https://s.id/ZQpR',
+    },
   },
   {
     topic: 'Showcase Top 10 & Awarding Top 3',
-    date: '19 March 2022',
-    time: '07:00 - 08:00 PM',
+    date: '26 March 2022 ',
+    time: '13:00 - 15:30',
+    link: {
+      youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
+      calendar: 'https://s.id/-ZQtA',
+    },
   },
 ]
 
