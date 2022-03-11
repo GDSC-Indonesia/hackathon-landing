@@ -13,7 +13,7 @@ const FAQs: Array<FaQ> = [
   {
     question: 'Can I form a team from a different Faculty and/or University?',
     answer:
-      'Teams can be formed by students of different faculties but all students must come from the same university.',
+      'Team members are allowed to come from different universities or faculties.',
   },
   {
     question: 'What are the expected qualifications in the Preliminary stage?',
