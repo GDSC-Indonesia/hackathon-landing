@@ -12,6 +12,7 @@ import FaqSection from '../components/Section/FaqSection'
 import SubscribeSection from '../components/Section/SubscribeSection'
 import FooterSection from '../components/Section/FooterSection'
 import TimelineSection from '../components/Section/TimelineSection'
+import SolutionChallengeSection from '../components/Section/SolutionChallengeSection'
 
 const Home: NextPage = () => {
   const [open, setOpen] = useState(false)
@@ -42,7 +43,7 @@ const Home: NextPage = () => {
       <AboutSection />
       <TimelineSection />
       <PrizeSection />
-
+      <SolutionChallengeSection />
       <MediaSection />
       <div className="bg-primary ">
         <FaqSection />
