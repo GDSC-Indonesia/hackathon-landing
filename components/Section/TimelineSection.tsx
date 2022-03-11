@@ -3,32 +3,36 @@ import Container from '../Container'
 
 const timeLines = [
   {
-    name: 'Registration',
-    date: '5 - 18 march',
+    name: 'Open Registration',
+    date: '12 - 18 march',
   },
   {
-    name: 'Opening & Technical meeting',
-    date: '9 march',
+    name: 'Opening Technical Meeting ',
+    date: '19 march',
   },
   {
     name: 'Tech talk',
     date: '20 march',
   },
   {
-    name: 'Mentorship',
-    date: '21 - 25 march',
+    name: 'Deadline solution & Demo Video',
+    date: '24 march',
   },
   {
-    name: 'Awarding top 10 & top 5',
+    name: 'Announcement Top 10',
+    date: '25 march',
+  },
+  {
+    name: 'Showcase Top 10 & Awarding Top 3',
     date: '26 march',
   },
   {
-    name: 'Showcase top 5 + awarding top 3',
+    name: 'Mentoring Top 10',
     date: '27 march',
   },
   {
-    name: 'Controlling Partisipant GSC',
-    date: '28 march',
+    name: 'Google Solution Challenge Submission',
+    date: '28 - 30 march',
   },
 ]
 
