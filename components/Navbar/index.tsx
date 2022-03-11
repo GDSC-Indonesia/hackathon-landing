@@ -15,10 +15,13 @@ const Navbar = () => {
         <ul className="mb-4 flex flex-row ">
           {menus.map((menu, i) => (
             <li key={`${i}-links`} className=" lg:ml-7">
-              <Link to={menu.to} smooth={true} spy={true}>
-                <a className=" cursor-pointer text-right text-primary transition-all hover:border-b-2 hover:border-b-primary lg:text-lg">
-                  {menu.name}
-                </a>
+              <Link
+                to={menu.to}
+                smooth={true}
+                spy={true}
+                className=" cursor-pointer text-right text-primary transition-all hover:border-b-2 hover:border-b-primary lg:text-lg"
+              >
+                {menu.name}
               </Link>
             </li>
           ))}
