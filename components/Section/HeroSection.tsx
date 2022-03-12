@@ -36,7 +36,8 @@ const HeroSection = () => {
             Apply
           </a>
           <a
-            href="#"
+            href="/Guide-Book-Hackfest.pdf"
+            target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer rounded-xl border-2 border-secodary px-4 py-[10px] text-center text-secodary transition-all hover:bg-secodary hover:text-white hover:shadow-md lg:px-6 lg:py-[15px]"
           >
