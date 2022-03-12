@@ -26,7 +26,7 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <div className="mt-7 flex gap-3 lg:mt-[128px]">
+        <div className="mt-7 flex gap-3 lg:mt-[80px]">
           <a
             href="https://forms.gle/LTp2AfiusgfstiqJA"
             target="_blank"
