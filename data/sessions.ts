@@ -24,7 +24,7 @@ const sessions: Array<Session> = [
     time: '10:15 - 11:15 ',
     link: {
       youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
-      calendar: 'https://s.id/-ZQoj',
+      calendar: 'https://s.id/10LHU',
     },
   },
   {
@@ -33,7 +33,7 @@ const sessions: Array<Session> = [
     time: '11:35 - 12:35',
     link: {
       youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
-      calendar: 'https://s.id/ZQpw',
+      calendar: 'https://s.id/10LHw',
     },
   },
   {
@@ -42,7 +42,7 @@ const sessions: Array<Session> = [
     time: '13:20 - 14:20',
     link: {
       youtube: 'https://www.youtube.com/channel/UCpSv2Al-xgyHEnyqkCUq1kg',
-      calendar: 'https://s.id/ZQpR',
+      calendar: 'https://s.id/10LHk',
     },
   },
   {
