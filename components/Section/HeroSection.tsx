@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="flex justify-center lg:order-2">
         <Image src={HeroImage} alt="Hero image" objectFit="cover" />
       </div>
-      <div className="mt-6 flex flex-col items-center lg:order-1 lg:row-span-2  lg:items-start">
+      <div className="mt-6 flex flex-col items-center lg:order-1 lg:row-span-2  lg:items-start z-20">
         <div>
           <h1 className="text-center text-3xl font-bold text-textPrimary lg:text-left lg:text-6xl">
             GDSC <br className="md:hidden lg:block" /> Hackfest <br /> Indonesia
