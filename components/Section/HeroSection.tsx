@@ -21,8 +21,8 @@ const HeroSection = () => {
           </h1>
           <div className="mt-4">
             <p className="w-[223px] text-center text-sm lg:w-[338px] lg:text-left lg:text-lg">
-              Register your team work quickly and be a winner turn obstacles
-              into opportunities with us
+              Register your team now and have the chance of winning 
+              one of the most prestigious hackathon events in Indonesia!
             </p>
           </div>
         </div>

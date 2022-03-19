@@ -52,7 +52,7 @@ const Navbar = () => {
                 target="_blank"
                 className="cursor-pointer rounded-xl border-2 border-primary px-4 py-[10px] text-primary transition-all hover:bg-primary hover:text-white hover:shadow-md lg:px-6 lg:py-[15px]"
               >
-                Join Forum Discussion
+                Join Telegram Group
               </a>
             </li>
           </ul>

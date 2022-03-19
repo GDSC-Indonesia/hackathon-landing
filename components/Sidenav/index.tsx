@@ -31,7 +31,7 @@ const Sidenav = ({ open }: SidenavProps) => {
             target="_blank"
             className="cursor-pointer rounded-xl border-2 border-white px-4 py-[10px] text-white  transition-all hover:shadow-md lg:px-6 lg:py-[15px]"
           >
-            Join Forum Discussion
+            Join Telegram Group
           </a>
         </li>
       </ul>
