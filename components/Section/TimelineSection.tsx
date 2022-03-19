@@ -4,7 +4,7 @@ import Container from '../Container'
 const timeLines = [
   {
     name: 'Open Registration',
-    date: '12 - 18 march',
+    date: '12 - 24 march',
   },
   {
     name: 'Opening & Technical Meeting ',
