@@ -14,30 +14,28 @@ const Countdown = ({ className = '' }: CountProps) => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear()
 
-    const diference = +new Date(`03/19/${year}`) - +new Date()
+    const diference = +new Date(`03/24/${year}`) - +new Date()
 
     let timeLeft: Array<Count> = []
 
-    if (diference > 0) {
-      timeLeft = [
-        {
-          name: 'Days',
-          time: Math.floor(diference / (1000 * 60 * 60 * 24)),
-        },
-        {
-          name: 'Hours',
-          time: Math.floor((diference / (1000 * 60 * 60)) % 24),
-        },
-        {
-          name: 'Minutes',
-          time: Math.floor((diference / 1000 / 60) % 60),
-        },
-        {
-          name: 'Seconds',
-          time: Math.floor((diference / 1000) % 60),
-        },
-      ]
-    }
+    timeLeft = [
+      {
+        name: 'Days',
+        time: diference > 0 ? Math.floor(diference / (1000 * 60 * 60 * 24)) : 0,
+      },
+      {
+        name: 'Hours',
+        time: diference > 0 ? Math.floor((diference / (1000 * 60 * 60)) % 24) : 0,
+      },
+      {
+        name: 'Minutes',
+        time: diference > 0 ? Math.floor((diference / 1000 / 60) % 60) : 0,
+      },
+      {
+        name: 'Seconds',
+        time: diference > 0 ? Math.floor((diference / 1000) % 60) : 0,
+      },
+    ]
     return timeLeft
   }
 
