@@ -28,7 +28,7 @@ const sessions: Array<Session> = [
     },
   },
   {
-    topic: 'Sharing Sessions with Winner GSC ',
+    topic: 'Sharing Session with GSC Winner',
     date: '20 March 2022',
     time: '11:35 - 12:35',
     link: {
@@ -37,7 +37,7 @@ const sessions: Array<Session> = [
     },
   },
   {
-    topic: 'Pitching for Desk',
+    topic: 'Delivering Awesome Pitch',
     date: '20 March 2022',
     time: '13:20 - 14:20',
     link: {
